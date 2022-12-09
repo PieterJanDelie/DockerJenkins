@@ -5,7 +5,7 @@ pipeline {
     stages {
       stage('Clonerepo') {
           steps {
-            sh 'git clone'
+            echo 'git clone'
           }
      }
       stage('Build') {
